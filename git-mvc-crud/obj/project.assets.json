@@ -527,19 +527,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/arwawanla/.nuget/packages/": {}
+    "/Users/rawabeebrahim/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arwawanla/Projects/Git/mvc-CRUD/git-mvc-crud/git-mvc-crud.csproj",
+      "projectUniqueName": "/Users/rawabeebrahim/Desktop/UesrHistory/mvc-CRUD/git-mvc-crud/git-mvc-crud.csproj",
       "projectName": "git-mvc-crud",
-      "projectPath": "/Users/arwawanla/Projects/Git/mvc-CRUD/git-mvc-crud/git-mvc-crud.csproj",
-      "packagesPath": "/Users/arwawanla/.nuget/packages/",
-      "outputPath": "/Users/arwawanla/Projects/Git/mvc-CRUD/git-mvc-crud/obj/",
+      "projectPath": "/Users/rawabeebrahim/Desktop/UesrHistory/mvc-CRUD/git-mvc-crud/git-mvc-crud.csproj",
+      "packagesPath": "/Users/rawabeebrahim/.nuget/packages/",
+      "outputPath": "/Users/rawabeebrahim/Desktop/UesrHistory/mvc-CRUD/git-mvc-crud/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/arwawanla/.config/NuGet/NuGet.Config"
+        "/Users/rawabeebrahim/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -586,7 +586,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

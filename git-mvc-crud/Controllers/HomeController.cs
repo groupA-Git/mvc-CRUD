@@ -32,6 +32,13 @@ namespace git_mvc_crud.Controllers
             return View();
         }
 
+        public IActionResult Details(int id)
+        {
+            Employee employee = employees.Find(d => d.EmployeeID == id);
+            ViewData["employee"] = employee;
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
