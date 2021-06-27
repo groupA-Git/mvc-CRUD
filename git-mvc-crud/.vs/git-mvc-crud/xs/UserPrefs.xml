@@ -1,23 +1,29 @@
 ﻿<Properties StartupConfiguration="{0B6DA27B-6BF7-42DB-AAF6-51A72A6E580D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
     <Files>
-      <File FileName="Controllers/HomeController.cs" Line="14" Column="1" />
-      <File FileName="Views/Home/Index.cshtml" Line="9" Column="1" />
-      <File FileName="Models/Employee.cs" Line="7" Column="47" />
+      <File FileName="Controllers/HomeController.cs" Line="35" Column="37" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Models/Employee.cs" />
+      <File FileName="Views/Home/Details.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="git-mvc-crud" expanded="True">
             <Node name="git-mvc-crud" expanded="True">
-              <Node name="Controllers" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.git-mvc-crud FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.git-mvc-crud PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
