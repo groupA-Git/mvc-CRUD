@@ -27,8 +27,8 @@ namespace git_mvc_crud.Controllers
 
         public IActionResult Index()
         {
-            Employee emp = Employee.Id
-            ViewData["EmployeeInfo"] = Employee;
+            
+            ViewData["Employees"] = employees;
             return View();
         }
 
