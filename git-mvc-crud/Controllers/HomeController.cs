@@ -11,6 +11,13 @@ namespace git_mvc_crud.Controllers
 {
     public class HomeController : Controller
     {
+        List<Employee> employees = new List<Employee>()
+        {
+            new Employee {EmployeeID= 1 , EmployeeName="Arwa"},
+            new Employee {EmployeeID= 2 , EmployeeName="Rawabe"},
+            new Employee {EmployeeID= 3 , EmployeeName="Amal"}
+        }
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -20,6 +27,8 @@ namespace git_mvc_crud.Controllers
 
         public IActionResult Index()
         {
+            Employee emp = Employee.Id
+            ViewData["EmployeeInfo"] = Employee;
             return View();
         }
 
